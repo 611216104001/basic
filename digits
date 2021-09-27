@@ -1,0 +1,3 @@
+int_n = int(input())
+digit_lst = list(map(int,str(int_n)))
+print(*digit_lst)
