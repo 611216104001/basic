@@ -1,0 +1,15 @@
+int_val = int(input())
+int_lst = list(map(int,str(int_val)))
+odd_lst = []
+even_lst = []
+for i in range(0,len(int_lst)):
+    if(int_lst[i] % 2 == 0):
+        odd_lst.append(int_lst[i])
+odd_lst.sort()
+print(*odd_lst)
+for i in range(0,len(int_lst)):
+    if(int_lst[i] % 2 != 0):
+        even_lst.append(int_lst[i])
+even_lst.sort()
+print(*even_lst)
+  
