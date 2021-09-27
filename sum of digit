@@ -1,0 +1,3 @@
+int_val = int(input())
+int_to_lst = list(map(int,str(int_val)))
+print(sum(int_to_lst))
