@@ -1,0 +1,3 @@
+inp_string = str(input())
+string = inp_string.replace(" ","")
+print(len(string))
