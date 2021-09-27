@@ -1,0 +1,10 @@
+month = int(input())
+if(month <= 12) and (month != 0):
+    if(month == 2):
+        print("28")
+    elif(month % 2 == 0):
+        print("30")
+    else:
+        print("31")
+else:
+    print("Error")
