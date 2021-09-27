@@ -1,0 +1,3 @@
+PTR = list(map(float,input().split()))[:3]
+SI = (PTR[0] * PTR[1] * PTR[2])/100
+print(round(SI,2))
