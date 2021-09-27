@@ -1,0 +1,7 @@
+radius = float(input())
+pi = 3.1415
+circumference = 2 * pi * radius
+if (circumference >= 0):
+    print(round(circumference,2))
+else:
+    print("Error")
