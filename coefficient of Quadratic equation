@@ -1,0 +1,11 @@
+import math
+coefficient = list(map(int,input().split()))[:3]
+a = coefficient[0]
+b = coefficient[1]
+c = coefficient[2]
+#sqrt = cmath.sqrt(b * b - (4 * a * c))
+root = (b**2) - (4*a*c)
+x_value1 = ((-b) + math.sqrt(root)) / (2 * a)
+x_value2 = ((-b) - math.sqrt(root)) / (2 * a)
+print(format(x_value1,'.2f'))
+print(format(x_value2,'.2f'))
