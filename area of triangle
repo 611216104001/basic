@@ -1,0 +1,4 @@
+import math
+side_tri = int(input())
+area_tri = (math.sqrt(3)/4) * (side_tri * side_tri)
+print(round(area_tri,2))
