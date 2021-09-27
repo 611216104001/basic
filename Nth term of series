@@ -1,0 +1,9 @@
+#You are provided with a number "N", Find the Nth term of the series: 1, 4, 9, 16, 25, 36, 49, 64, 81, .......
+int_n = int(input())
+if (int_n > 0):
+    print(int_n * int_n)
+elif (int_n < 0):
+    print("Error")
+else:
+    print("0")
+    
