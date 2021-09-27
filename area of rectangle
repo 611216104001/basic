@@ -1,0 +1,4 @@
+lenght = int(input())
+breadth = int(input())
+area_rectangle = lenght * breadth
+print(round(area_rectangle,1))
